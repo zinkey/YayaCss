@@ -1,0 +1,59 @@
+<!doctype>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Yaya Css 好用的css hack控制器</title>
+<link href="demo.css" rel="stylesheet" type="text/yayacss"></link>
+<script type="text/javascript" src="yayacss.js"></script>
+</head>
+<body>
+<div class="title">
+	Yaya Css 好用的css hack控制器 !
+</div>
+<div>
+	还在为复杂的css hack而头痛？那么快来试试Yaya Css！
+</div>
+<div>
+	支持浏览器hack:<br>
+	firefox-<br>
+	chrome-<br>
+	ie-<br>
+	opera-<br>
+	safari-<br>
+	maxthon-<br><br>
+	后面跟数字表示对于浏览器的版本
+</div>
+<div>
+	1.将需要用Yaya Css的link的type设置为type="text/yayacss"<br>
+	2.在所有Yaya Css的link后面，引入<a href="yayacss.js">这个js文件</a><br><br>
+
+
+
+
+	示例:<br>
+	1.css 
+	<pre>
+
+		pre{
+				ie6-background:coral;
+				ie7-background:blue;
+				ie8-background:pink;
+				firefox-background:red;
+				chrome-background:green;
+				opera-background:orange;
+				safari-background:yellow;
+				maxthon-background:gray;
+		}
+	</pre>
+	<br>
+	index.htm
+	<pre>
+
+		&lt;link href="demo.css" rel="stylesheet" type="text/yayacss"&gt;&lt;/link&gt;
+		&lt;script type="text/javascript" src="yayacss.js"&gt;&lt;/script&gt;
+	</pre>
+</div>
+
+
+</body>
+</html>
