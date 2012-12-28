@@ -35,7 +35,7 @@ function setStyle(href){
 var link = document.getElementsByTagName("link");
 for (var i=0,j=link.length;i<j;i++){
 	if (link[i].getAttribute("type")=="text/yayacss"){
-		var href = link[i].getAttribute("href");
+		var href = link[i].getAttribute("data-href");
 		if (href&&href!="")
 		{
 			try{

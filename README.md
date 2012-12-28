@@ -33,7 +33,7 @@ demo.css
 
 demo.html
 
-	<link href="demo.css" rel="stylesheet" type="text/yayacss"></link>
+	<link data-href="demo.css" rel="stylesheet" type="text/yayacss"></link>
 	<script type="text/javascript" src="yayacss.js"></script>
 
 ## 更多
